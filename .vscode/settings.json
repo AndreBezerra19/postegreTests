@@ -1,0 +1,27 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "PostgreSQL Docker",
+      "database": "testdb",
+      "username": "testuser",
+      "password": "testpass",
+      "connectionTimeout": 30,
+      "askForPassword": false,
+      "showRecords": 1000
+    }
+  ],
+  "sqltools.useNodeRuntime": true,
+  "sqltools.format": {
+    "language": "sql",
+    "indent": "  "
+  },
+  "sqltools.results": {
+    "limit": 1000,
+    "location": "next"
+  },
+  "sqltools.autoConnectTo": "PostgreSQL Docker"
+}
